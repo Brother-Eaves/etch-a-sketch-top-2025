@@ -1,4 +1,24 @@
-* {
-    margin: 0;
+
+
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    justify-content: center;
     padding: 0;
+}
+
+.square:hover {
+   background-color: black;
+}
+
+.square {
+    border: 1px solid black;
+    width: 6.25%;
+    height: 6.25%;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: white;
 }
