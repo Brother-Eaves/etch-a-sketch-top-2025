@@ -1,4 +1,8 @@
 
+.title {
+    text-align: center;
+}
+
 .btns {
     display: flex;
     justify-content: center;
@@ -14,7 +18,7 @@
     justify-content: center;
     margin-left: 23%;
     margin-top: 5%;
-    border: 1px solid red;
+
 }
 
 .square:hover {

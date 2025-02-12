@@ -22,10 +22,6 @@ const btns = document.querySelector('.btns')
     const btn1 = document.createElement('button');
     btn1.classList.add('btn1')
     btn1.textContent = '16 X 16'
-    btn1.addEventListener('click', ()=>{
-       input = 256
-       location.reload()
-    })
     btns.appendChild(btn1)
 
     const btn2 = document.createElement('button');
@@ -45,4 +41,18 @@ const btns = document.querySelector('.btns')
 
    
 
+btn1.addEventListener('click', ()=>{
+    alert('clicked')
+})
 
+btn2.addEventListener('click', ()=>{
+    alert('clicked')
+})
+
+btn3.addEventListener('click', ()=>{
+    alert('clicked')
+})
+
+btn4.addEventListener('click', ()=>{
+    alert('clicked')
+})
