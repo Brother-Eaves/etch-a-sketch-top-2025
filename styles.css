@@ -1,13 +1,14 @@
 
 .title {
     text-align: center;
+    padding: 0;
 }
 
 .btns {
     display: flex;
     justify-content: center;
-    gap: 10%;
-    padding-top: 10px;
+    gap: 5%;
+    padding-top: 5px;
 }
 .container {
 
