@@ -1,6 +1,9 @@
 const container = document.querySelector('.container');
 const btns = document.querySelector('.btns')
-
+//const btn1 = document.querySelector('.btn1');
+//const btn2 = document.querySelector('.btn2');
+//const btn3 = document.querySelector('.btn3');
+//const btn4 = document.querySelector('.btn4');
 
 
     
@@ -19,6 +22,10 @@ const btns = document.querySelector('.btns')
     const btn1 = document.createElement('button');
     btn1.classList.add('btn1')
     btn1.textContent = '16 X 16'
+    btn1.addEventListener('click', ()=>{
+       input = 256
+       location.reload()
+    })
     btns.appendChild(btn1)
 
     const btn2 = document.createElement('button');
@@ -37,4 +44,5 @@ const btns = document.querySelector('.btns')
     btns.appendChild(btn4)
 
    
+
 
