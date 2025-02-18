@@ -27,7 +27,7 @@ resize.addEventListener('click', ()=>{
        let newSize = prompt('enter a number from 16 to 100')
        newSize = parseInt(newSize)
        
-    if (newSize < 100) {
+    if (newSize <= 100) {
         createGrid(newSize)
     } else {
         alert('Your grid must be 1 to 100')
