@@ -33,13 +33,16 @@ resize.addEventListener('click', ()=>{
         alert('Your grid must be 1 to 100')
     }
 })
+resize.style.backgroundColor = 'green';
+resize.style.color = 'white';
 btn.appendChild(resize)
 
 const reset = document.createElement('button');
 reset.classList.add('reset');
 reset.textContent = 'Reset';
 reset.style.color = 'white';
-reset.style.backgroundColor = 'red';
+reset.style.backgroundColor = 'orange';
+reset.style.color = 'black'
 reset.addEventListener('click', ()=>{
     location.reload()
 })
